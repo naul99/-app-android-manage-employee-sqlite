@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".SinhVienActivity">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SinhvienActivity"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="24sp" />
+
+    <EditText
+        android:id="@+id/edtLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Lop"
+        android:inputType="textPersonName"
+        android:textAlignment="center"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/btnLop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:text="LẤY DS SINH VIÊN"
+        android:textSize="20sp" />
+
+    <ListView
+        android:id="@+id/lvSv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</LinearLayout>
